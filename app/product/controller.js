@@ -33,7 +33,7 @@ export const deleteProduct = (req, res) => {
 };
 
 
-export const updateProduct = (req, res) => {
+export const updateProduct = (req, res) => {  
   const { name, age, gender } = req.body;
   console.log('req params' ,req.params.id)
   console.log('body:', name ,age, gender);
